@@ -1,4 +1,4 @@
-package com.training.mydesignpatternexamples.BuilderPattern;
+package com.training.mydesignpatternexamples.CreationalPatterns.BuilderPattern;
 
 public class PersonBuilderApp {
 
