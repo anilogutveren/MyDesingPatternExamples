@@ -1,4 +1,4 @@
-package com.training.mydesignpatternexamples.BehavioralPatterns.ObserverPattern;
+package com.training.mydesignpatternexamples.Behavioral_Patterns.ObserverPattern;
 
 public class Investor implements Observer {
 

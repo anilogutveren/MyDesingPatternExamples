@@ -1,4 +1,4 @@
-package com.training.mydesignpatternexamples.CreationalPatterns.FactoryPattern;
+package com.training.mydesignpatternexamples.Creational_Patterns.FactoryPattern;
 
 import java.util.Date;
 

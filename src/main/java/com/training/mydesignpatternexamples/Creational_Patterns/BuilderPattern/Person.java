@@ -1,4 +1,4 @@
-package com.training.mydesignpatternexamples.CreationalPatterns.BuilderPattern;
+package com.training.mydesignpatternexamples.Creational_Patterns.BuilderPattern;
 
 public class Person {
 
