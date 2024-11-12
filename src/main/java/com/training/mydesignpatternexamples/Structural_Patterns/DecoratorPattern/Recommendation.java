@@ -1,4 +1,6 @@
 package com.training.mydesignpatternexamples.Structural_Patterns.DecoratorPattern;
 
-public class DecoratorApp {
+public interface Recommendation {
+
+    String getRecommendation();
 }
