@@ -1,0 +1,18 @@
+public class KahveDecoratorApp {
+    public static void main(String[] args) {
+        // 1. Sade sipariş
+        Kahve siparis = new SadeKahve();
+        System.out.println(siparis.getAciklama() + " : " + siparis.getUcret() + " TL");
+
+        // 2. Sütlü Sade Kahve (Nesneyi paketliyoruz)
+        Kahve sutluKahve = new Sut(new SadeKahve());
+        System.out.println(sutluKahve.getAciklama() + " : " + sutluKahve.getUcret() + " TL");
+
+        // 3. Çift Şekerli Sütlü Kahve (Matruşka bebek gibi iç içe)
+        // Sırasıyla: SadeKahve -> Sut -> Seker -> Seker
+        Kahve ozelKahve = new Seker(new Seker(new Sut(new SadeKahve())));
+
+        System.out.println(ozelKahve.getAciklama() + " : " + ozelKahve.getUcret() + " TL");
+        // Çıktı: Sade Kahve, Sütlü, Şekerli, Şekerli : 75.0 TL
+    }
+}
