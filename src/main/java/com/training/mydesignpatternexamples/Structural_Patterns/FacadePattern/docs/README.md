@@ -25,3 +25,15 @@ Iyi olmayan hatali yöntem:
 
 Facade Pattern uygulanmis dogru yöntem:
 ![img_1.png](FacadePattern.png)
+
+
+
+Facade ve Proxy Arasındaki Fark (Önemli!)
+
+Kullanıcılar genellikle bu ikisini karıştırır çünkü ikisi de "araya giren bir sınıf"tır.
+
+    Facade: Var olan sistemi basitleştirir. Yeni ve daha temiz bir arayüz sunar. Amacı kullanımı kolaylaştırmaktır.
+
+    Proxy: Var olan sistemin arayüzünü değiştirmez (aynı interface'i implemente eder). Amacı erişimi kontrol etmektir.
+
+    Özetle: Facade "Basitleştirici", Proxy "Kapıcı/Denetçi"dir.
